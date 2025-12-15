@@ -1,3 +1,3 @@
 # Kafka Infrastructure
 
-Repository for managing Kafka resources in Kubernetes.
+Repository for managing Kafka resources in Kubernetes (Minikube).
