@@ -7,3 +7,4 @@ kubectl apply -n kafka -f k8s/20-kafka-cluster/kafka-cluster.yaml
 kubectl wait kafka/my-cluster --for=condition=Ready --timeout=300s -n kafka
 
 kubectl apply -f k8s/30-topics/
+kubectl apply -f k8s/40-changelog/
